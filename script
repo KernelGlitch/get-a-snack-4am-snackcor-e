@@ -49,7 +49,7 @@
 --⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⢛⡛⠷⠶⠬⠭⣭⣭⣩⣭⡿⡿⠃⠀⠀
 --
 
-- if you skid no dad
+-- if you skid no dad
 
 local GetASnack4AM = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
