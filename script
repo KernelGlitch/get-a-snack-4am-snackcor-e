@@ -1,0 +1,184 @@
+-- ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⠞⠛⢿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡴⠛⠁⣠⡄⠀⣾⠋⠉⠉⠉⠉⠉⠛⠛⠛⠒⠦⢤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠶⢋⡿⠋⣀⡴⠋⢹⡇⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠲⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⢰⣶⠶⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠛⠁⢀⡴⠋⢠⡞⠃⠀⠀⢸⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠲⣤⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⢸⣧⠀⠀⠉⠙⠲⠦⢤⣀⣀⠀⠀⢀⡴⠞⠁⠀⠀⣰⠎⠀⡴⠋⠀⠀⠀⠀⢸⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⢦⡀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⢿⡇⠀⠀⠀⠀⠀⠀⠀⠉⢙⡶⠋⠀⠀⠀⠀⡼⠁⠀⠸⠥⢤⣄⡀⠀⠀⢸⠀⠀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠈⢷⡀⠀⠀⠀⠀⠀⠀⣠⠏⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⡀⠉⠙⠷⢼⣇⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠀
+--⠀⠀⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⢀⡼⠁⠀⠀⠀⠀⠀⠀⢀⡤⠞⠉⠉⠉⠉⠙⠳⢦⡄⠀⠀⠀⠘⠇⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠓⠲⣤⣀⠀⠀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠳⡄
+--⠀⠀⠀⠀⠀⠀⠀⠀⠹⣦⠶⠶⣏⠀⠀⠀⠀⠀⠀⠀⣠⠎⠀⢀⣠⠤⠤⢤⣄⡀⠈⢷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢯⡁⠀⠀⠀⠀⠀⠈⠉⠛⠻⠶⣿
+--⠀⠀⠀⠀⠀⠀⠀⠀⢸⠃⠀⠈⠈⠁⠀⠀⠀⠀⠀⠈⠁⢠⡾⠋⠁⠀⠀⠀⠈⠻⣆⠈⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⢸⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠏⠀⠀⠀⠀⠀⠀⠀⠀⢹⡆⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠸⣯⣿⣿⠀⠀⠀⠀⠀⠀⠀⢀⡟⠀⠀⠀⢠⣶⣄⠀⠀⠀⢸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢷⡄⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⡇⠀⠀⠀⠀⠀⠀⣼⠀⠀⠀⠀⣼⠁⠹⡄⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡇⢳⡀⣠⠀⠀⠀⠀⣿⠀⠀⠀⠀⣿⣈⣷⣷⠀⠀⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠶⢲⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⡀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡈⢷⣿⠀⠀⠀⢰⡿⠀⠀⠀⠀⠸⣿⣿⣻⣆⡼⠛⠛⠛⠷⡄⠀⠀⠀⣠⠞⠁⠀⢸⡿⠀⠀⠠⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣧⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⡘⣿⣷⣄⣀⡾⠁⠀⠀⠀⠀⠀⠙⣮⡿⠋⣷⡶⣦⡄⠀⢹⠀⣠⠞⠁⠀⠀⢀⣾⠃⠀⠀⠀⠀⠙⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⡤⢼⣿⣿⣿⣿⡿⠧⠤⠤⠤⠤⣤⡤⠶⠋⠀⣠⠏⢸⣿⠇⣠⡿⠚⠁⠀⠀⣀⡴⠛⠁⠀⠀⠀⠀⠀⠀⠀⠙⣦⣄⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣿⣿⣿⣿⣶⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⣠⢴⣿⣷⠿⠿⠛⠉⢁⣀⣀⣀⡤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣏⠛⢦⡀⠀⠀⠀⠀⠀⡇⠀⠀⠀
+--⠀⠀⠀⠀⢠⡶⠛⠉⠀⠀⠈⠉⠛⢿⣍⣿⣷⣶⣤⣄⣀⣀⣀⣤⠞⠋⠉⠀⠀⠀⠀⠀⠀⠈⠉⠻⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡄⠀⠙⢦⡀⠀⠀⠀⡇⠀⠀⠀
+--⠀⠀⠀⠀⢠⡏⠀⠀⠀⠀⠀⠀⠀⣠⠾⠛⠻⢶⣬⣿⠶⢶⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⣀⠀⠘⡆⠉⠛⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠻⣦⠀⠀⡇⠀⠀⠀
+--⠀⠀⠀⠀⣿⠁⠀⠀⠀⠀⠀⠀⣸⠃⠀⠀⣠⣴⠏⠁⠀⣼⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠀⢹⡆⢀⡿⢦⡀⠀⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠘⣧⠀⡇⠀⠀⠀
+--⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⣴⡟⠛⠋⠉⠀⣏⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠈⢷⡀⢀⣿⡟⠀⠀⠙⣆⠀⠀⠹⣄⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠘⣿⠀⠀⠀⠀
+--⠀⠀⠀⠀⠘⢷⡄⠘⢶⠶⣯⠙⠷⣦⣤⣤⣀⣽⡀⠀⡄⠈⠳⣄⠀⠀⠀⢀⣰⡿⠋⠀⠀⣸⣧⠞⠉⢿⣆⠀⠀⣸⠆⠀⠀⠹⣆⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠈⠛⠶⣤⣤⣿⣦⣤⡼⣧⠀⠀⠀⠙⠦⣿⣦⣤⣬⠿⠛⠋⠉⢿⡀⢄⣀⡴⠛⠁⠀⠀⠘⣏⠳⠼⠛⠀⠀⠀⠀⢹⡄⠀⠀⠀⠀⢸⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠷⣄⠀⠀⠀⠀⠀⣸⠁⠀⠀⠀⠀⣻⡿⠿⢥⣀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠈⣇⠀⠀⠀⢠⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠳⣤⣀⠀⢠⡏⠀⠀⠀⠀⣰⠟⣇⠀⠀⠉⠳⢄⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⢹⠀⠀⢠⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⠛⠿⣄⣀⠀⠀⠀⢹⡆⠘⢦⡀⠀⠀⠈⢳⡄⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⢠⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⢸⡏⢣⠀⠀⠀⢷⡄⠈⠻⣦⡀⠀⠀⢻⣤⠇⠀⠀⠀⠀⠀⠀⠀⠀⢸⡿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⢳⠘⣷⠀⠀⠸⣟⠳⢦⣈⠻⢦⡀⠈⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣇⠀⠸⡇⠘⡄⠀⠀⢹⡄⠀⠉⠉⠓⠛⠿⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡀⠀⢷⠀⢿⠀⠀⠘⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⡇⠀⢸⡆⠈⡇⠀⠀⢸⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⢻⠀⢻⡀⠀⠈⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣶⣿⡄⠀⠘⣦⣼⣇⠀⠀⠘⣷⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡟⠁⠛⠷⠿⢧⣤⣤⣿⠿⣿⡀⠀⠀⢻⡧⢬⣽⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡷⣤⣀⠀⠀⠀⣸⠋⣵⡟⢙⣇⣀⣀⣸⠿⠛⠁⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣾⡀⠀⠉⠀⠀⠰⣇⠀⠉⠛⠛⠛⠉⠉⠀⠀⠀⢀⡼⠛⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡴⠞⠛⠁⠈⠙⢿⣷⠤⣤⣀⣀⣹⠷⢤⣤⣀⣀⠀⠀⠀⠀⠘⠋⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⢀⣤⠖⠛⠳⣄⠀⠀⠀⠀⠀⠀⠙⢦⡀⠀⠉⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠛⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⢀⡴⠞⠉⠀⠀⠀⠀⠈⢷⡀⠀⠀⠀⠀⠀⠀⢷⡀⠀⢹⡷⠦⣄⣀⣀⣀⣀⣠⠴⣶⣻⠽⠶⠛⠛⠙⠳⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⣀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⠀⠀⠀⠀⠀⠀⠈⡇⠀⢸⠀⠀⠀⠈⠉⠁⠀⣠⠞⠉⠀⠀⠀⠀⠀⠀⠀⠀⠙⢯⡳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⢀⡼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⢿⠀⣾⠀⠀⠀⠀⠀⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣿⣎⢧⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⣾⣧⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⢀⣿⣀⣀⣀⣀⣀⣀⣼⣄⣿⠀⠀⠀⠀⢠⡞⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠚⠉⠉⠁⠀⠘⢧⣹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠈⠛⠛⠒⠶⠭⠭⠭⠭⠭⠭⠭⠭⠭⠭⣭⠭⠭⠭⠭⢭⣭⣿⣿⣿⠳⣄⠀⠀⣸⠁⠀⠀⠀⠀⠀⠀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠈⢻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⣌⡷⣤⣏⠀⠀⠀⠀⠀⠀⠀⣾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢮⣝⠳⣤⣀⠀⠀⠀⢸⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⣌⣛⡶⢤⣼⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠳⢤⣽⣟⡒⠦⢤⣤⣀⣀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⢛⡛⠷⠶⠬⠭⣭⣭⣩⣭⡿⡿⠃⠀⠀
+--
+
+- if you skid no dad
+
+local GetASnack4AM = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local b1house = Instance.new("TextButton")
+local b2gas = Instance.new("TextButton")
+local b3wm = Instance.new("TextButton")
+local b4wmap = Instance.new("TextButton")
+local b6inf = Instance.new("TextButton")
+local b5desmap = Instance.new("TextButton")
+
+--Properties:
+
+GetASnack4AM.Name = "Get A Snack 4AM"
+GetASnack4AM.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = GetASnack4AM
+main.BackgroundColor3 = Color3.fromRGB(30, 20, 30)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 5
+main.Position = UDim2.new(0.0356164388, 0, 0.567331672, 0)
+main.Size = UDim2.new(0, 480, 0, 318)
+main.Active = true
+main.Draggable = true
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 4
+title.Size = UDim2.new(0, 480, 0, 50)
+title.Font = Enum.Font.FredokaOne
+title.Text = "GASA4A : Snackcore - LEAN"
+title.TextColor3 = Color3.fromRGB(85, 255, 127)
+title.TextSize = 25.000
+
+b1house.Archivable = false
+b1house.Name = "b1house"
+b1house.Parent = main
+b1house.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b1house.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b1house.BorderSizePixel = 4
+b1house.Position = UDim2.new(0.0363984667, 0, 0.257861644, 0)
+b1house.Size = UDim2.new(0, 200, 0, 50)
+b1house.Font = Enum.Font.FredokaOne
+b1house.Text = "Bedroom"
+b1house.TextColor3 = Color3.fromRGB(0, 0, 0)
+b1house.TextSize = 18.000
+b1house.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(134.650269, 6.00085735, -21.1401653, -0.537381291, -7.82403973e-08, 0.843339384, -9.61117124e-08, 1, 3.15315098e-08, -0.843339384, -6.41103455e-08, -0.537381291)
+end)
+
+b2gas.Archivable = false
+b2gas.Name = "b2gas"
+b2gas.Parent = main
+b2gas.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b2gas.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b2gas.BorderSizePixel = 4
+b2gas.Position = UDim2.new(0.547124922, 0, 0.257861644, 0)
+b2gas.Size = UDim2.new(0, 200, 0, 50)
+b2gas.Font = Enum.Font.FredokaOne
+b2gas.Text = "Gas Station"
+b2gas.TextColor3 = Color3.fromRGB(0, 0, 0)
+b2gas.TextSize = 18.000
+b2gas.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4.12556744, 4.99999809, 84.9960785, -0.994970202, -6.8484816e-08, -0.100171395, -6.96499001e-08, 1, 8.13364576e-09, 0.100171395, 1.50696629e-08, -0.994970202)
+end)
+
+b3wm.Archivable = false
+b3wm.Name = "b3wm"
+b3wm.Parent = main
+b3wm.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b3wm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b3wm.BorderSizePixel = 4
+b3wm.Position = UDim2.new(0.0346249118, 0, 0.522012591, 0)
+b3wm.Size = UDim2.new(0, 200, 0, 50)
+b3wm.Font = Enum.Font.FredokaOne
+b3wm.Text = "Weird Figure (Hacker Ending)"
+b3wm.TextColor3 = Color3.fromRGB(0, 0, 0)
+b3wm.TextSize = 15.000
+b3wm.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-150.178299, 35.4999924, 123.178574, -0.420509666, 3.87599002e-08, 0.907288074, 1.29196909e-09, 1, -4.21218083e-08, -0.907288074, -1.65404401e-08, -0.420509666)
+end)
+
+b4wmap.Archivable = false
+b4wmap.Name = "b4wmap"
+b4wmap.Parent = main
+b4wmap.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b4wmap.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b4wmap.BorderSizePixel = 4
+b4wmap.Position = UDim2.new(0.545041621, 0, 0.522012591, 0)
+b4wmap.Size = UDim2.new(0, 200, 0, 50)
+b4wmap.Font = Enum.Font.FredokaOne
+b4wmap.Text = "Old Map"
+b4wmap.TextColor3 = Color3.fromRGB(0, 0, 0)
+b4wmap.TextSize = 18.000
+b4wmap.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.96537542, -22.9999504, 972.835144, -0.977702498, -2.05375752e-08, 0.209994867, -1.76490572e-10, 1, 9.69786598e-08, -0.209994867, 9.47792174e-08, -0.977702498)
+end)
+
+b6inf.Archivable = false
+b6inf.Name = "b6inf"
+b6inf.Parent = main
+b6inf.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b6inf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b6inf.BorderSizePixel = 4
+b6inf.Position = UDim2.new(0.546815217, 0, 0.786163568, 0)
+b6inf.Size = UDim2.new(0, 200, 0, 50)
+b6inf.Font = Enum.Font.FredokaOne
+b6inf.Text = "Inf Yield"
+b6inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+b6inf.TextSize = 18.000
+b6inf.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+b5desmap.Archivable = false
+b5desmap.Name = "b5desmap"
+b5desmap.Parent = main
+b5desmap.BackgroundColor3 = Color3.fromRGB(21, 14, 21)
+b5desmap.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b5desmap.BorderSizePixel = 4
+b5desmap.Position = UDim2.new(0.0343151353, 0, 0.786163568, 0)
+b5desmap.Size = UDim2.new(0, 200, 0, 50)
+b5desmap.Font = Enum.Font.FredokaOne
+b5desmap.Text = "Glitched Map"
+b5desmap.TextColor3 = Color3.fromRGB(0, 0, 0)
+b5desmap.TextSize = 18.000
+b5desmap.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(152.34877, 77.4364548, 3989.92407, -0.564379632, 2.48561882e-08, -0.825515389, -9.64753433e-09, 1, 3.67056288e-08, 0.825515389, 2.86800965e-08, -0.564379632)
+end)
